@@ -1,0 +1,193 @@
+.hidden
+    opacity: 0
+    
+.home-wrap
+  display: flex
+  min-height: 100vh
+
+  @media (max-width: 775px)
+    display: block
+  
+  .bg
+    position: fixed
+    top: 0
+    bottom: 0
+    opacity: 1
+    width: 10%
+    
+    background:
+        size: 200%
+        repeat: no-repeat
+        
+    z-index: -1
+    &.bg-left
+        left: 0
+        box-shadow: -20px 0px 20px white inset
+        background:
+            image: url(../img/bg-4.png)
+            position: 50% 25%
+            repeat: repeat
+            //size: 150%
+    &.bg-right
+        right: 0
+        box-shadow: 20px 0px 20px white inset
+        background:
+            image: url(../img/bg-5.png)
+            position: 50% 25%
+            repeat: repeat
+            //size: 150%
+    
+.home-sections
+  flex: 1
+
+  section
+    padding: 20vh 0
+    min-height: 60vh
+    
+    
+    @media (max-height: 500px)
+        padding: 10vh 0
+        min-height: 80vh
+        margin-top: 40px
+    @media (max-height: 450px)
+        padding: 5vh 0
+        min-height: 90vh
+    
+
+
+
+  // Flex Classes
+  .flex
+    display: flex
+
+  .flex--center
+    justify-content: center
+
+  .flex--space-around
+    justify-content: space-around
+
+  .order-first
+    order: -1
+
+
+
+// columns
+.col-1
+  max-width: 200px
+  margin: 0 10px
+
+.col-2
+  max-width: 420px
+  margin: 0 10px
+
+.col-50
+  width: 50%
+
+.push-right
+  margin-left: 230px
+
+@media (max-width: 440px)
+  .home-sections .flex
+    display: block
+
+  .col-1
+    max-width: 100%
+  .col-2
+    margin: 0 20px
+
+  .col-50
+    width: auto
+
+  .push-right
+    margin-left: 10px
+
+
+
+// Typography
+
+.title
+    line-height: 1.1
+    text-align: center
+    text-transform: uppercase
+    font:
+        size: 1.5em
+        weight: 100
+        style: italic
+.breakline
+    display: block
+    background: $accent-color
+    width: 80%
+    height: 1px
+    margin: 30px auto
+
+.tagline
+    color: $text-color
+    text-align: center
+    font:
+        family: 'Crimson Text'
+        size: 2em
+        weight: 400
+        style: italic
+
+    .bigger
+        font:
+            size: 1.1em
+            weight: 600
+
+
+        &.pink
+            color: $pink
+        &.green
+            color: $green
+        &.purple
+            color: $purple
+.text
+    text-align: center
+    
+// Animations
+
+.dropfade
+        opacity: 1
+        transform: translateY(0)
+        
+        animation: dropfade 1s ease-in-out
+        //animation-delay: 3.5s
+    
+@keyframes dropfade
+    0%
+        transform: translateY(-2em)
+        opacity: 0
+    75%
+        transform: translateY(0)
+    100%
+        opacity: 1
+    
+.risefade
+        opacity: 1
+        transform: translateY(0)
+        
+        animation: risefade 1s ease-in-out
+        //animation-delay: 3.5s
+    
+@keyframes risefade
+    0%
+        transform: translateY(2em)
+        opacity: 0
+    75%
+        transform: translateY(0)
+    100%
+        opacity: 1
+
+.fade
+    opacity: 1
+    animation: fade 1s ease-in-out
+    
+@keyframes fade
+    0%
+        opacity: 0
+    100%
+        opacity: 1
+
+.ani-long
+    animation-duration: 1.5s
+    

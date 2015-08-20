@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "work.css",
+  "sources": [
+    "work.sass"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AAEQ,KAAK,AAAA,QAAQ,CAAC,UAAU,CAAb;EACP,UAAU,AAAA,CAAC,AACP,KAAK,EAAE,4BAAG,GAFN;;;AAKZ,KAAK,AAAA,IAAI,CAAC,UAAU,CAAT;EACP,UAAU,AAAA,CAAC,AACP,KAAK,EAAE,wBAAG,GAFN",
+  "names": []
+}

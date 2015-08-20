@@ -1,0 +1,45 @@
+mixin skill(title, experience)
+    .skill
+        h4.title #{title}
+        span.progress-bar
+            span.progress(style="width: #{experience}")
+
+section.skills
+    .flex.flex--center
+        .col-2
+            h2.tagline.hidden A few  
+                span.bigger.purple skills 
+                | I'm working on.
+            
+            span.breakline.hidden.ani-long
+            
+            .content.hidden
+                .text These are some skills I want to focus on in my career. My experience in each skill is based on my self-precieved proficiency and time spent actively working on it.
+
+                h3.title Soft Skills
+
+                +skill("Communication", "60%")
+                +skill("Learning/Adaptability", "80%")
+                +skill("Organization", "75%")
+                +skill("Problem Solving", "60%")
+                +skill("Project Management", "20%")
+                +skill("Time Management", "70%")
+
+                h3.title Technical Skills
+
+                +skill("Back-end Development", "50%")
+                +skill("Documentation", "60%")
+                +skill("Hardware Programming", "35%")
+                +skill("Front-end Development", "70%")
+                
+                +skill("Non-relational Databases", "30%")
+                +skill("Relational Databases", "70%")
+                +skill("UI/UX Design", "65%")
+            
+            
+            
+                .next-button.btn-life.fade.ani-long
+                    
+                    
+                    
+                    

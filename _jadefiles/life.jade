@@ -1,0 +1,25 @@
+mixin pane(title, image, url, color)
+    a.pane(href="#{url}", target="_blank", style="background-color: #{color}")
+        img.image(src="#{image}", alt="")
+        h3.title #{title}
+            
+section.life
+    .flex.flex--center
+        .col-2
+            h2.tagline.hidden Here's the rest of my   
+                span.bigger.pink life 
+                | !
+            
+            span.breakline.hidden.ani-long
+    .content.hidden.ani-long
+        .flex.flex--center      
+            .col-1
+                +pane("LinkedIn", "assets/img/logo-li.png", "https://www.linkedin.com/pub/david-leger/b6/aa9/395", "#0077B5")
+
+            .col-1
+                +pane("GitHub", "assets/img/logo-gh.png", "https://github.com/davidleger95", "#44246E")
+        .flex.flex--center
+            .col-1
+                +pane("Email", "assets/img/logo-mail.png", "mailto:davidleger95@me.com", "#E01063")
+            .col-1
+                +pane("Full Resume", "assets/img/logo-pdf.png", "assets/files/DavidLeger_Resume_2015.pdf", "#333")

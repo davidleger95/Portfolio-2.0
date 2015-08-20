@@ -1,0 +1,70 @@
+/* line 1, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+.home-wrap {
+  display: flex;
+  min-height: 100vh; }
+  @media (max-width: 775px) {
+    /* line 1, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+    .home-wrap {
+      display: block; } }
+
+/* line 8, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+.home-sections {
+  flex: 1; }
+  /* line 11, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+  .home-sections section {
+    padding: 50px 0; }
+  /* line 17, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+  .home-sections .flex {
+    display: flex; }
+  /* line 20, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+  .home-sections .flex--center {
+    justify-content: center; }
+  /* line 23, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+  .home-sections .flex--space-around {
+    justify-content: space-around; }
+  /* line 26, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+  .home-sections .order-first {
+    order: -1; }
+
+/* line 32, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+.col-1 {
+  max-width: 200px;
+  margin: 0 10px; }
+
+/* line 36, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+.col-2 {
+  max-width: 420px;
+  margin: 0 10px; }
+
+/* line 40, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+.col-50 {
+  width: 50%; }
+
+/* line 43, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+.push-right {
+  margin-left: 330px; }
+
+@media (max-width: 640px) {
+  /* line 47, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+  .home-sections .flex {
+    display: block; }
+  /* line 50, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+  .col-1 {
+    max-width: 100%; }
+  /* line 53, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+  .col-50 {
+    width: auto; }
+  /* line 56, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+  .push-right {
+    margin-left: 10px; } }
+
+/* line 63, /Users/David/Desktop/Personal Site/assets/css/4-layouts/home.sass */
+.title {
+  line-height: 1.1;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 100;
+  font-style: italic; }
+
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,9 @@
+/* line 2, /Users/David/Desktop/Personal Site/assets/css/3-sections/life.sass */
+.life .col-2 {
+  min-width: 420px; }
+  @media (max-width: 420px) {
+    /* line 2, /Users/David/Desktop/Personal Site/assets/css/3-sections/life.sass */
+    .life .col-2 {
+      min-width: 90%; } }
+
+/*# sourceMappingURL=life.css.map */

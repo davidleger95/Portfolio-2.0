@@ -1,0 +1,59 @@
+// Desktop Nav
+.navbar
+    display: block
+    position: fixed
+    top: -50px
+    left: calc(50% - 310px)
+    //height: 50px
+    width: 620px
+    margin: 0 auto
+    padding: 0px 0 !important
+    background-color: white
+    box-shadow: 0 20px 20px white
+    z-index: 100
+    
+    @media (max-width: 620px)
+        width: 100%
+        left: 0
+    
+    
+    
+    ul
+        display: flex
+        list-style: none
+        text-align: center
+        font-size: 0.8em
+        padding: 0
+        
+
+    li
+        flex-grow: 1
+        width: 25%;
+        text-transform: uppercase
+        letter-spacing: 2px
+        
+        a 
+            display: block
+            width: 100%
+            color: rgba($primary-color, 0.75)
+            padding: 10px 0
+            &:hover
+                border-bottom: 1px solid $primary-color
+                color: $primary-color
+            &.logo
+                +hide-text
+                background:
+                    image: url(/assets/img/logo-dl.svg)
+                    repeat: no-repeat
+                    position: bottom center
+                    size: contain
+                height: 25px
+                padding: 0
+                margin: 0 auto
+                top: 30px
+                opacity: 0.75
+                &:hover
+                    border-bottom: none
+                    opacity: 1
+                    
+

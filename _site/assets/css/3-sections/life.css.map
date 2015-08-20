@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "life.css",
+  "sources": [
+    "life.sass"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AACI,KAAK,CAAC,MAAM,CAAL;EACH,SAAS,EAAE,KAAM,GADb;EAGJ,MAAM,EAAL,SAAS,EAAE,KAAK;;IAHrB,KAAK,CAAC,MAAM,CAAL;MAIC,SAAS,EAAE,GAAI,GAJf",
+  "names": []
+}

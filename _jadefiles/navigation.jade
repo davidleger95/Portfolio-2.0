@@ -1,0 +1,17 @@
+mixin nav-content()
+  ul
+    li: a(href="#about") Section A
+    li: a(href="#youtube") Section B
+    li: a(href="#mentoring") Section C
+
+.mobile-nav
+  +nav-content()
+
+header
+  .header-position
+    h1.logo Travis Neilson
+    
+    nav.site-nav
+      +nav-content()
+    
+    .mobile-nav-toggle: span

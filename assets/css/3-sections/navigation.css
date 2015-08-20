@@ -1,0 +1,27 @@
+/* line 2, /Users/David/Desktop/Personal Site/assets/css/3-sections/navigation.sass */
+section.navbar {
+  width: 620px;
+  margin: 0 auto;
+  padding: 20px !important; }
+  @media (max-width: 620px) {
+    /* line 2, /Users/David/Desktop/Personal Site/assets/css/3-sections/navigation.sass */
+    section.navbar {
+      width: 420px; } }
+  @media (max-width: 420px) {
+    /* line 2, /Users/David/Desktop/Personal Site/assets/css/3-sections/navigation.sass */
+    section.navbar {
+      width: 320px; } }
+  /* line 10, /Users/David/Desktop/Personal Site/assets/css/3-sections/navigation.sass */
+  section.navbar ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    font-size: 0.9em; }
+  /* line 16, /Users/David/Desktop/Personal Site/assets/css/3-sections/navigation.sass */
+  section.navbar li {
+    flex-grow: 1;
+    width: 25%;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+
+/*# sourceMappingURL=navigation.css.map */

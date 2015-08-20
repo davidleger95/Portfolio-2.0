@@ -1,0 +1,29 @@
+mixin nav-content(home)
+  ul
+    li: a.btn-me(href="#me") Me
+    li: a.btn-work(href="#work") Work
+    if home
+        li: a.logo.btn-home(href="#work") Home
+    li: a.btn-skills(href="#skills") Skills
+    li: a.btn-life(href="#life") Life
+
+nav.navbar
+    .navbar.header-nav
+        +nav-content(true)
+
+section.welcome
+    
+    .flex.flex--center
+        .col-2
+            .logo.dropfade
+            h1.title.brand
+                .dropfade David Leger
+            span.breakline.fade.ani-long
+            h2.tagline.risefade.ani-long Hey! My name's 
+                span.bigger.pink David
+                | . <br />I like to 
+                span.bigger.green design 
+                | things, and 
+                span.bigger.purple code 
+                | stuff!
+            .next-button.btn-me.fade.ani-long

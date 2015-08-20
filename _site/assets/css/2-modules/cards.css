@@ -1,0 +1,12 @@
+/* line 2, /Users/David/Desktop/Personal Site/assets/css/2-modules/cards.sass */
+.card .card-logo {
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat; }
+
+/*# sourceMappingURL=cards.css.map */

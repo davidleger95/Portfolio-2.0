@@ -1,0 +1,36 @@
+.skills
+    
+    .title
+        margin-top: 50px
+        margin-bottom: 10px
+        font:
+            size: 1.2em
+    
+    .skill
+        display: inline-block
+        width: calc(50% - 20px)
+        margin: 5px 10px
+        
+        @media (max-width: 440px)
+            width: calc(100% - 20px)
+        .title
+            color: black
+            text-transform: uppercase
+            text-align: left
+            margin: 20px 0 5px 0
+            font:
+                size: 0.9em
+                weight: 200
+                style: normal
+
+        .progress-bar, .progress
+            display: block
+
+            height: 2px
+            width: 100%
+            border-radius: 1px
+
+            background-color: rgba($purple, 0.2)
+            .progress
+                background-color: rgba($purple, 1)
+                width: auto
