@@ -1,7 +1,7 @@
 # Portfolio Site 2.0
 Version 2 of my professional portfolio site. This website serves as an online version of my resume and it was created to also showcase my talent with front-end design and development. 
 
-***
+---
 
 ### Development Stack
  - Jade
@@ -9,6 +9,8 @@ Version 2 of my professional portfolio site. This website serves as an online ve
  - jQuery
  - Sass & Bourbon
  - Gulp (Browser Sync; Jade, Jekyll, and Sass Compilation)
+
+---
 
 ### All Versions
 
