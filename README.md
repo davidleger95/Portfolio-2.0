@@ -15,5 +15,5 @@ Version 2 of my professional portfolio site. This website serves as an online ve
 ### All Versions
 
  - [Version 1](http://davidleger95.github.io/portfolio) | May, 2015
- - [Version 2 (current)](http://davidleger95.github.io/Portfolio-2.0) | August, 2015
+ - [Version 2 (current)](http://davidleger.me) | August, 2015
  
