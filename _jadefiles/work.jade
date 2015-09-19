@@ -1,3 +1,8 @@
+mixin pane(title, image, url, color)
+    a.pane(href="#{url}", target="_blank", style="background-color: #{color};")
+        img.image(src="#{image}", alt="" style="border-radius: 100%;")
+        h3.title #{title}
+        
 section.work
     .flex.flex--center
         .col-2
@@ -29,5 +34,14 @@ section.work
                     h3.title Mariner Innovations
                     h4.subtitle Junior Program Analyst
                     p.text At Mariner, I built COBOL/JCL analyzation tools to examine and visualize program interactions and database calls within large-scale applications. Used AWK, Batch, C# (Roslyn), Java (ANTLR), HTML, CSS, and Javascript (D3.js).
-                
+                .flex.flex--center 
+                    .col-2 
+                        h3.title Projects
+                .flex.flex--center 
+                    .col-1
+                        +pane("Donald Knuth Biography", "assets/img/knuth.jpg", "http://davidleger95.github.io/knuth-biography", "#D0021B")
+
+                    //.col-1
+                        +pane("GitHub", "assets/img/logo-gh.png", "https://github.com/davidleger95", "#44246E")
+                        
             .next-button.btn-skills.fade.ani-long
