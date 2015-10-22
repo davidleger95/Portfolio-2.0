@@ -672,6 +672,13 @@ section.welcome {
 .card.afl .subtitle {
   color: #1F3496; }
 
+.card.alc .card-logo {
+  border-color: #4586DF;
+  background-image: url(../img/logo-alc.png); }
+
+.card.alc .subtitle {
+  color: #4586DF; }
+
 .skills .title {
   margin-top: 50px;
   margin-bottom: 10px;
